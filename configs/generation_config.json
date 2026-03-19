@@ -1,0 +1,16 @@
+{
+  "bos_token_id": 163584,
+  "eos_token_id": 163585,
+  "pad_token_id": 163839,
+  "max_new_tokens": 8192,
+  "do_sample": true,
+  "temperature": 0.8,
+  "top_p": 0.95,
+  "top_k": 40,
+  "repetition_penalty": 1.12,
+  "no_repeat_ngram_size": 3,
+  "max_position_embeddings": 262144,
+  "transformers_version": "4.56.2",
+  "developer": "Shrijan Kumar Tiwari",
+  "model_name": "SKT OMNI SUPREME 1.1T"
+}
