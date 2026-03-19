@@ -1,0 +1,36 @@
+{
+  "bos_token": {
+    "content": "<|begin_of_text|>",
+    "lstrip": false,
+    "normalized": false,
+    "rstrip": false,
+    "single_word": false
+  },
+  "eos_token": {
+    "content": "<|end_of_text|>",
+    "lstrip": false,
+    "normalized": false,
+    "rstrip": false,
+    "single_word": false
+  },
+  "pad_token": {
+    "content": "<|pad_text|>",
+    "lstrip": false,
+    "normalized": false,
+    "rstrip": false,
+    "single_word": false
+  },
+  "additional_special_tokens": [
+    "<|user|>",
+    "<|assistant|>",
+    "<|system|>",
+    "<|thought|>",
+    "<|skt_omni_video_placeholder|>",
+    "<|image_start|>",
+    "<|image_end|>",
+    "<|vision_pad|>",
+    "<|call_expert|>"
+  ],
+  "developer": "Shrijan Kumar Tiwari",
+  "project": "Project Surya 1.1T"
+}
