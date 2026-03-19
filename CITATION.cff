@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this model or research, please cite it as below."
+authors:
+- family-names: "Tiwari"
+  given-names: "Shrijan Kumar"
+title: "Project Surya: Scaling 1.1T Frontier MoE Intelligence"
+version: 1.0.6
+date-released: 2026-03-20
+url: "https://github.com/Shrijanagain/Project-Surya-OMNI-SUPREME"
