@@ -1,4 +1,8 @@
 # 🚀 Project Surya: SKT OMNI SUPREME (1.1T MoE)
+![Model Type](https://img.shields.io/badge/Model-1.1T_MoE-blue?style=for-the-badge&logo=ai&logoColor=white)
+![Framework](https://img.shields.io/badge/Framework-ST--X_Extreme-red?style=for-the-badge&logo=rocket&logoColor=white)
+![Tokens](https://img.shields.io/badge/Tokens-146_Trillion-orange?style=for-the-badge&logo=data-matrix&logoColor=white)
+
 
 
 ### **Official Technical Report & Architectural Documentation (v1.0.6)**
