@@ -1,0 +1,40 @@
+{
+  "framework": "ST-X (Surya Throughput eXtreme)",
+  "version": "1.0.6-alpha",
+  "optimization_level": "extreme",
+  "compute_config": {
+    "precision": "mixed_fp8_bf16",
+    "attention_implementation": "flash_attention_3_beta",
+    "kernel_fusion": true,
+    "triton_kernels": "enabled",
+    "fused_moe_gating": true
+  },
+  "moe_specific_optimizations": {
+    "routing_strategy": "top-2-balanced",
+    "expert_parallelism_degree": 8,
+    "capacity_factor": 1.25,
+    "aux_loss_weight": 0.01,
+    "expert_offloading": "dynamic_nvme",
+    "communication_overlap": "all_to_all_async"
+  },
+  "memory_management": {
+    "zero_stage": 3,
+    "gradient_checkpointing": "selective",
+    "activation_offloading": false,
+    "kv_cache_quantization": "int8",
+    "max_batch_throughput": "64M_tokens"
+  },
+  "hardware_target": {
+    "node_type": "NVIDIA-H100-80GB",
+    "interconnect": "NVLink-4_InfiniBand-NDR",
+    "target_tflops_per_gpu": 750,
+    "energy_efficiency_mode": "performance_first"
+  },
+  "throughput_stats": {
+    "phase_1_peak": 9200,
+    "phase_2_avg": 5500,
+    "phase_3_stable": 4200,
+    "unit": "tokens_per_sec_per_gpu"
+  },
+  "developer_notes": "Optimized by Shrijan Kumar Tiwari for Project Surya 1.1T scale-out."
+}
