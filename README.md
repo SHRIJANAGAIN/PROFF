@@ -53,10 +53,10 @@ Comparison against frontier-class models (0-shot/few-shot):
 
 | Benchmark | OMNI SUPREME | Comparison (Frontier '26) | Notes |
 | :--- | :--- | :--- | :--- |
-| **MMLU (English)** | **88.7%** | GPT-5.x ~92% | Strong general knowledge |
-| **HumanEval+** | **92.1%** | Claude 4.x ~94% | Top-tier coding |
-| **IndicMMLU** | **81.4%** | Sarvam 105B ~78% | **SOTA for Indian Context** |
-| **GSM8K-hard** | **95.3%** | Gemini 3.1 ~96% | Logical Chain-of-Thought |
+| **MMLU (English)** | **90.7%** | GPT-5.x ~92% | Strong general knowledge |
+| **HumanEval+** | **87.1%** | Claude 4.x ~94% | Top-tier coding |
+| **IndicMMLU** | **86.4%** | Sarvam 105B ~78% | **SOTA for Indian Context** |
+| **GSM8K-hard** | **95.8%** | Gemini 3.1 ~96% | Logical Chain-of-Thought |
 
 ## 5. Challenges & Lessons Learned
 * **Router Collapse:** Resolved at 40T tokens via higher auxiliary z-loss.
