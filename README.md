@@ -9,7 +9,7 @@
 ​Project Surya is a frontier-scale initiative by SKT AI LABS to develop the world’s most efficient and linguistically capable Mixture-of-Experts (MoE) architecture. Our flagship model, SKT OMNI SUPREME, is a 1.1-Trillion parameter powerhouse trained from scratch on 146 Trillion multi-modal tokens.
 ​This repository contains the Technical Whitepaper (v1.0.6), architectural configurations, and benchmark logs for public audit and research transparency
 
-[📄 Read the Full Technical Whitepaper (supreme.pdf)](./supreme.pdf)
+[📄 Read the Full Technical Whitepaper (supreme.pdf)](./Supreme.pdf)
 
 **Project Surya** is a frontier-scale research initiative by **SKT AI LABS** focused on scaling Mixture-of-Experts (MoE) architectures to 1.1-Trillion parameters. Our mission is to provide state-of-the-art (SOTA) intelligence for the Global South, with a primary focus on Hinglish, Indian context, and advanced coding reasoning.
 
